@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portforio</title>
+    <meta name="discription" content="ポートフォリオです">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script  src="js/jquery.js"></script>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="header w_inner">
+        <canvas class="background"></canvas>
+        <div id="canvas-container">
+            <canvas id="sineCanvas" width="800" height="300"></canvas>
+        </div>
+        <div class="logo">
+            <img src="img/Portfolio.png" alt="ポートフォリオ">
+            <h1>yuta's portforio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jump-to-introduction">SELF-INTRODUCTION</a></li>
+                <li><a href="#jump-to-experience">WORK EXPERIENCE</a></li>
+                <li><a href="#jump-to-delivarable">DELIVAERABLE</a></li>
+                <li><a href="#jump_to_information">INFORMATION</a></li>
+            </ul>
+        </nav>
+        <div class="header_img">
+            <img src="img/header.jpg" alt="">
+            <h2>Portfolio</h2>
+            <p>YUTA KOSEKI</p>
+        </div>
+    </header>
+
+    <!-- メイン -->
+    <div class="container w_inner">
+
+        <!-- イントロダクション -->
+        <div class="introduction" id="jump-to-introduction">
+            <h3>SELF-INTRODUCTION</h3>
+            <ul>
+                <li>名　前　：小関　雄大</li>
+                <li>生年月日：1996年5月27日</li>
+                <li>出身地　：神奈川県</li>
+                <li>出身大学：専修大学</li>
+            </ul>
+        </div>
+        <div class="background_image_1"></div>
+
+        <!-- エクスペリエンス -->
+        <div class="experience" id="jump-to-experience">
+            <h4>WORK EXPERIENCE</h4>
+            <ul>
+                <li>2019年　　　　　　新宿区役所入区</li>
+                <li>2019年〜2020年 　子ども家庭部　保育課　窓口業務</li>
+                <li>2020年〜現在　　　子ども家庭部　保育課　歳入業務、コロナ関連業務</li>
+            </ul>
+        </div>
+        <div class="background_image_2"></div>
+
+        <!-- デリヴァラブル -->
+        <div class="derivaerable" id="jump-to-delivarable">
+            <h5>DELIVAERABLE</h5>
+            <div class="service_block">
+                <div class="service scroll-up scroll-up_1">
+                    <img src="img/img1.jpg" alt="サービス１">
+                    <div class="ttl">ホームページ制作</div>
+                    <div class="explain">LPやWordPressの作成を行いました。</div>
+                    <a href="">続きはこちら</a>
+                </div>
+                <div class="service scroll-up scroll-up_2">
+                    <img src="img/img2.jpg" alt="サービス１">
+                    <div class="ttl">iPhoneアプリ制作</div>
+                    <div class="explain">クイズが好きで、クイズアプリを作成しました。</div>
+                    <a href="">続きはこちら</a>
+                </div>
+                <div class="service scroll-up scroll-up_3">
+                    <img src="img/img3.jpg" alt="サービス１">
+                    <div class="ttl">自動売買制作</div>
+                    <div class="explain">投資にハマりインジケーターの作成や自動売買ツールを作成しました。</div>
+                    <a href="">続きはこちら</a>
+                </div>
+            </div>
+        </div>
+        <div class="background_image_3"></div>
+
+        <!-- インフォメーション -->
+        <div class="information" id="jump_to_information">
+            <h6>INFORMATION</h6>
+            <p>Email : entryofyuta@gmail.com</p>
+        </div>
+
+    </div>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="copy">
+            &copy;2022 my portfolio
+        </div>
+    </footer>
+</body>
+    <!-- javaScriptのimport -->
+    <script src="js/javascript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+</html>
